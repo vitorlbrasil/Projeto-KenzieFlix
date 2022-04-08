@@ -1,0 +1,96 @@
+/* reset */
+html, body, div, .main-box, .logo, figure, img, h2, .container, a, p, button{
+    margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+    box-sizing: border-box;
+}
+
+/* reset */
+body {
+	line-height: 1;
+}
+
+body{
+    font-family: "IBM Plex Sans", sans-serif;
+}
+
+.main-box{
+    width: 100vw;
+    height: 100vh;
+    background-color: #121214;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo{
+    margin-bottom: 60px;
+}
+
+h2{
+    color: white;
+    font-size: 32px;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    width: 700px;
+}
+
+.perfil{
+    text-align: center;
+    text-decoration: none;
+    color: #9C9C9C;
+}
+.perfil figure{
+    width: 160px;
+    height: 160px;
+    border-radius: 8px;
+}
+.perfil:hover figure{
+    box-shadow: 0px 0px 5px 2px rgba(255,255,255,0.75);
+}
+.perfil p{
+    margin-top: 10px;
+}
+
+.add-perfil figure{
+    opacity: 0.5;
+}
+.add-perfil:hover figure{
+    opacity: 1;
+}
+
+.avatar figure{
+    overflow: hidden;
+}
+.avatar:hover figure img{
+    transform: scale(1.2);
+}
+
+.btn-gerenciar{
+    width: 200px;
+    height: 50px;
+    margin-top: 50px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #ffffff;
+    background-color: transparent;
+    border: 1.5px solid #FFFFFF;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.btn-gerenciar:hover{
+    color: #000000;
+    background-color: #ffffff;
+}
